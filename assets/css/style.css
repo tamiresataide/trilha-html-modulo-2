@@ -166,3 +166,30 @@ button:hover{
     text-decoration: underline;
     cursor: pointer;
 }
+
+#content-photos img{
+    margin: 5px 10%;
+}
+.table{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+th{
+    background-color: #2b2b2b;
+    color: #f1f1f1;
+    padding: 5px 20px 5px 5px;
+    font-size: 15px;
+}
+
+tr{
+    padding: 0;
+    margin: 0;
+}
+td{
+    padding: 5px 30px 5px 5px;
+    border: 1px solid #2b2b2b;
+    border-spacing: 0px;
+    font-size: 14px;
+}
