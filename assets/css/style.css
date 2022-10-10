@@ -53,16 +53,22 @@ li a{
     min-height: 300px;
     padding: 20px;
 }
-
+.content-wrapper{
+    display: flex;
+}
 .content p{
+    flex:2;
     text-indent: 15px;
 }
-
+.content img{
+    flex:1;
+    max-width: 250px;
+}
 hr{
     border: 3px solid #e63946;;
 }
-.footer {
-    min-height: 150px;
+.footer{
+    min-height: 50px;
     background-color: #1d3557;
     font-size: 12px;
     color: #e6e6e6;
